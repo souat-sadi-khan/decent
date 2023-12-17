@@ -1,0 +1,3 @@
+<a href="{{route('admin.paircosting.edit',$model->id)}}" class="btn btn-sm btn-info"><i class="fa fa-edit"></i>{{ _lang('Edit') }}</a>
+<a class="btn btn-sm btn-success text-light" onclick="myFunction('{{route('admin.paircosting.show',$model->id)}}')"><i class="fa fa-eye-slash"></i>{{ _lang('View') }}</a>
+<a class="btn btn-sm btn-danger text-light" id="delete_item" data-id ="{{$model->id}}" data-url="{{route('admin.paircosting.destroy',$model->id)  }}"><i class="fa fa-trash"></i>{{ _lang('Trash') }}</a>

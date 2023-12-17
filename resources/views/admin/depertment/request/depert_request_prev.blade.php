@@ -1,0 +1,1 @@
+@include('admin.utilities.include_request',['row'=>route('admin.store_request.department',['type'=>'row_material','id'=>$id]),'work'=>route('admin.store_request.department',['type'=>'work_order','id'=>$id])])
